@@ -5,5 +5,6 @@ description: installs Terraform/TerraGrunt for Windows
 runs:
   using: "composite"
   steps:
-      - run: '& $env:asdf/install-tf-win/install-tf-win.ps1'
+      #- run: '& $env:tyler5136/tcoctopusagentrepo/install-tf-win/install-tf-win.ps1'
+      - run: winver
       shell: powershell
