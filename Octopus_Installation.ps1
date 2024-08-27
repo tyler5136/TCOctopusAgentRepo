@@ -2,11 +2,11 @@
 ##Declare Paths
 $cDrive = 'C:\'
 $scriptFolder = $cDrive + 'TCScripts'
-$processLog = $scriptFolder + '\LogFile.txt'
-$errorLogFile = $scriptFolder + '\ErrorLog.txt'
-$installerFunctions = $scriptFolder + '\Installer_Functions.ps1'
-$octopusDownloader = $scriptFolder + '\Octopus_Download.ps1'
-$userAddProgram = $scriptFolder + '\User_Add.ps1'
+$processLog = '.\LogFile.txt'
+$errorLogFile = '.\ErrorLog.txt'
+$installerFunctions = '.\Installer_Functions.ps1'
+$octopusDownloader = '.\Octopus_Download.ps1'
+$userAddProgram = '.\User_Add.ps1'
 #Declare Primary Variables
 $localHostGroup = 'TulsaConnect'
 #$OctopusPassword = 'Octopus99!'
